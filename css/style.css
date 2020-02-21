@@ -1,0 +1,67 @@
+.mouse_click_image {
+
+}
+
+.divlogos_landing_page {
+
+}
+.services_section {
+  background-image: url('../img/backgrounds/s_image.jpg');
+}
+
+
+.most_paragraphs{
+  text-align: center;
+}
+
+
+.welcome_to_delani_studios {
+background-image: url('../img/backgrounds/h_img.jpg');
+background-size:auto;
+background-position:center;
+background-repeat: no-repeat;
+/* backface-visibility: visible,visible; */
+/* background-size: 100%; */
+}
+
+.what_we_do {
+     display: inline;
+     padding: 100px;
+}
+
+
+.logos_what_we_do2 {
+  float: right;
+}
+
+.logos_what_we_do3 {
+  float: right;
+}
+
+/* .ps_at_what_we_do {
+  text-align: center;
+} */
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: transparent ;
+}
+
+.col-sm-4 {
+position: relative;
+width: 100%;
+padding-right: 100px;
+padding-left: 100px;
+}
+
+.contact_us {
+  background-image: url('../img/backgrounds/c_image.jpg');
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
