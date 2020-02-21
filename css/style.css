@@ -46,17 +46,19 @@ background-repeat: no-repeat;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+  flex-wrap:nowrap;
   margin-right: -15px;
   margin-left: -15px;
   background-color: transparent ;
+  width: 92%;
+  padding: 52px;
 }
 
 .col-sm-4 {
 position: relative;
-width: 100%;
-padding-right: 100px;
-padding-left: 100px;
+width:auto;
+padding-right: 500px;
+padding-left: 500px;
 }
 
 .contact_us {
