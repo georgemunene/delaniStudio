@@ -12,9 +12,9 @@ $(document).ready(function(){
         $(".text3").toggle();
     });
 
-    $('.gallery-item').hover( function() {
-        $(this).find('.img-title').fadeIn(300);
+    $('.images').hover( function() {
+        $(this).find('.picturename').fadeIn(500);
     }, function() {
-        $(this).find('.img-title').fadeOut(100);
+        $(this).find('.picturename').fadeOut(200);
     });
 })
