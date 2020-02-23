@@ -34,6 +34,18 @@ background-repeat: no-repeat;
   float: right;
 }
 
+. first {
+
+}
+
+. text1 {
+
+}
+
+. clickable1 {
+
+}
+
 .logos_what_we_do3 {
   float: right;
 }
@@ -42,24 +54,9 @@ background-repeat: no-repeat;
   text-align: center;
 } */
 
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap:nowrap;
-  margin-right: -15px;
-  margin-left: -15px;
-  background-color: transparent ;
-  width: 92%;
-  padding: 52px;
-}
 
-.col-sm-4 {
-position: relative;
-width:auto;
-padding-right: 500px;
-padding-left: 500px;
-}
+
+
 
 .contact_us {
   background-image: url('../img/backgrounds/c_image.jpg');
@@ -67,3 +64,14 @@ padding-left: 500px;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: none;
+    background-color: white;
+    opacity: 0.5;
