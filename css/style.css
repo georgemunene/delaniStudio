@@ -35,6 +35,13 @@ background-repeat: no-repeat;
   background-repeat: no-repeat;
 }
 
+.white_color {
+  color: white;
+}
+
+
+
+
 .picturename {
     position: absolute;
     top: 0;
