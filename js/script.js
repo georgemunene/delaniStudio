@@ -1,13 +1,13 @@
 $(document).ready(function(){
-    $(".clickable1").click(function(){
+    $(".toggle1").click(function(){
         $(".first").toggle();
         $(".text1").toggle();
     });
-    $(".clickable2").click(function(){
+    $(".toggle2").click(function(){
         $(".second").toggle();
         $(".text2").toggle();
     });
-    $(".clickable3").click(function(){
+    $(".toggle3").click(function(){
         $(".third").toggle();
         $(".text3").toggle();
     });
