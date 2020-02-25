@@ -17,4 +17,12 @@ $(document).ready(function(){
     }, function() {
         $(this).find('.picturename').fadeOut(200);
     });
+
+    $("form").submit(function(){
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var message = $("#msg").val();
+    alert(name+' Your Message has been received.Thank you for contacting us. ')
+    $("form").trigger('reset');
+})
 })
